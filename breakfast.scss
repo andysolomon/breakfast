@@ -1,0 +1,20 @@
+@mixin breakfast($point) {
+  @if $point == small {
+    @media (max-width: 470px)  { @content; }
+  }
+  @else if $point == medium {
+    @media (min-width: 768px)  { @content; }
+  }
+  @else if $point == large {
+    @media (min-width: 980px) { @content; }
+  }
+  @else if $point == continental {
+    @media (min-width: 1200px) { @content; }
+  }
+  @else if $point == presidental {
+    @media (min-width: 1600px)  { @content; }
+  }
+  @else if $point == international {
+    @media (min-width: 1900px)  { @content; }
+  }
+}
