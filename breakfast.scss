@@ -1,7 +1,7 @@
 // Breakfast breakpoints.  Mobile first.
 @mixin breakfast($point) {
   @if $point == small-only {
-    @media (max-width: 470px) and (max-width: 767px)  { @content; }
+    @media (min-width: 470px) and (max-width: 767px)  { @content; }
   }
   @if $point == small {
     @media (max-width: 470px)  { @content; }
