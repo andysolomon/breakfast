@@ -1,0 +1,25 @@
+{
+  "name": "breakfast",
+  "version": "0.1.0",
+  "homepage": "https://github.com/andysolomon/breakfast",
+  "authors": [
+    "Andrew Solomon <andrewsolomon.edu@gmail.com>"
+  ],
+  "description": "Fast meaningful breakpoints",
+  "main": "breakfast.scss",
+  "keywords": [
+    "breakpoint",
+    "media",
+    "responsive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "Breakfast.md",
+    "typesix.scss",
+    "tests"
+  ]
+}
